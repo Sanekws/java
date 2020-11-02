@@ -3,7 +3,6 @@ package ru.scooljava;
 public class Main {
     public static void main(String[] args) {
 
-
     }
     //Написать публичный метод принимающий 2 параметра: первый типа byte и второй типа short. Метод должен возвращать сумму значений параметров. Тип возвращаемого значения должен быть byte.
     public static byte aByte(byte a, short b) {
@@ -23,13 +22,22 @@ public class Main {
     public static boolean isCharNumber(char f) {
         return Character.isDigit(f); }
     //Написать метод выводящий бинарное представление Integer.MAX_VALUE и Integer.MAX_VALUE + 1. Для вывода бинарного представления использовать Integer.toBinaryString(). Без входных параметров и не возвращающая ничего. Покажет, что переполнение не вызывает ошибку и как это выглядет в памяти
-    public static void integer(){
+    public static void integerMaxvalue(){
         System.out.println(Integer.toBinaryString(Integer.MAX_VALUE));
         System.out.println(Integer.toBinaryString(Integer.MAX_VALUE+1));
     }
-
-
-
+    //Написать метод выводящий на экран в цикле бинарное представление чисел от 0 до 30. Для вывода бинарного представления использовать Integer.toBinaryString(). Без входных параметров и не возвращающая ничего.
+    public static void integer30(){
+        for (int i = 0; i<30; i++) System.out.println(Integer.toBinaryString(i));
+    }
+    //Написать метод принимающий 1 параметр типа char и возвращающий его числовое представление.
+    public static int charInt(char a){
+        return (int) a;
+    }
+    //Написать метод принимающий 1 параметр типа int и возвращающий его представление в виде печатного символа
+    public static char intChar (int a){
+        return (char) a;
+    }
 
 }
 
