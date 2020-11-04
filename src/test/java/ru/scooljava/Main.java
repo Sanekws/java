@@ -29,6 +29,7 @@ public class Main {
     public static void integerMaxvalue(){
         System.out.println(Integer.toBinaryString(Integer.MAX_VALUE));
         System.out.println(Integer.toBinaryString(Integer.MAX_VALUE+1));
+
     }
     //Написать метод выводящий на экран в цикле бинарное представление чисел от 0 до 30. Для вывода бинарного представления использовать Integer.toBinaryString(). Без входных параметров и не возвращающая ничего.
     public static void integer30(){
