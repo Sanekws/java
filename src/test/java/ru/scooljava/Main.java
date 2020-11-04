@@ -2,6 +2,7 @@ package ru.scooljava;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println();
 
     }
     //Написать публичный метод принимающий 2 параметра: первый типа byte и второй типа short. Метод должен возвращать сумму значений параметров. Тип возвращаемого значения должен быть byte.
@@ -44,5 +45,4 @@ public class Main {
     }
 
 }
-
 
