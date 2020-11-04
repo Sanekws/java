@@ -10,17 +10,21 @@ public class Main {
     }
     //Написать публичный метод принимающий 2 параметра: первый типа int и второй типа long. Метод должен возвращать произведение значений параметров. Тип возвращаемого значения int.
     public static int aInt(int a, long b) {
-        return (int) (a+b);}
+        return (int) (a + b);
+    }
     //Написать метод getMaxNumber принимающий 2 параметра: int и int. Метод должен сравнить переданные параметры между собой и вернуть максимальный. Для решения необходимо использовать IF или тернарный оператор ?:
     public static int getMaxNumber(int a, int b) {
-        if (a>b) return a;
-        else return b; }
+        if (a > b) return a;
+        else return b;
+    }
     //Написать метод isCharA принимающий 1 параметр типа char. Если передана буква 'А', то возвращать true, а в остальных случаях false
     public static boolean isCharA(char c) {
-        return c == 'a'; }
+        return c == 'a';
+    }
     //Написать метод isCharNumber принимающий 1 параметр типа char. Если передано число, то вернуть true, а в остальных случаях false
     public static boolean isCharNumber(char f) {
-        return Character.isDigit(f); }
+        return Character.isDigit(f);
+    }
     //Написать метод выводящий бинарное представление Integer.MAX_VALUE и Integer.MAX_VALUE + 1. Для вывода бинарного представления использовать Integer.toBinaryString(). Без входных параметров и не возвращающая ничего. Покажет, что переполнение не вызывает ошибку и как это выглядет в памяти
     public static void integerMaxvalue(){
         System.out.println(Integer.toBinaryString(Integer.MAX_VALUE));
